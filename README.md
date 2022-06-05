@@ -47,7 +47,7 @@ Test code를 통해 테스트 할 수 있게 구현하였습니다.
 ### 회원 가입
 - 회원가입
   - http method : POST
-  - URL : http://52.52.165.102:80/api/sign-up
+  - ~~URL : http://52.52.165.102:80/api/sign-up~~
   - request body
     - ```
       {
@@ -61,7 +61,7 @@ Test code를 통해 테스트 할 수 있게 구현하였습니다.
   
 - 회원가입 SMS 검증 
   - http method : GET
-  - URL : http://52.52.165.102:80/api/sign-up/token
+  - ~~URL : http://52.52.165.102:80/api/sign-up/token~~
   - request body
     ```
       {
@@ -73,7 +73,7 @@ Test code를 통해 테스트 할 수 있게 구현하였습니다.
 ### 로그인
 - 이메일 로그인 
   - http method : POST
-  - URL : http://localhost:8080/api/login/email
+  - ~~URL : http://localhost:8080/api/login/email~~
   - request body
      ```
        { 
@@ -84,7 +84,7 @@ Test code를 통해 테스트 할 수 있게 구현하였습니다.
 
 - 닉네임 로그인
     - http method : POST
-    - URL : http://52.52.165.102:80/api/login/nickname
+    - ~~URL : http://52.52.165.102:80/api/login/nickname~~
     - request body
       ```
         {
@@ -94,7 +94,7 @@ Test code를 통해 테스트 할 수 있게 구현하였습니다.
         ```
 - 전화번호 로그인
     - http method : POST
-    - URL : http://52.52.165.102:80/api/login/phone-no
+    - ~~URL : http://52.52.165.102:80/api/login/phone-no~~
     - request body
     ```
     {
@@ -107,14 +107,14 @@ Test code를 통해 테스트 할 수 있게 구현하였습니다.
 
 - 프로필 보기
   - http method : GET
-  - URL : http://52.52.165.102:80/api/profile/my
+  - ~~URL : http://52.52.165.102:80/api/profile/my~~
   - header : "Bearer":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzYWxseSIsImlhdCI6MTY0OTMzNTQ1MiwiZXhwIjoxNjQ5MzM3MjUyfQ.YIsuz2r1eD1rp4P14qQREq_7IBbAcqb9l07ejbblnV_X9wLlHqK8psl26GHUMi5fjh6FAbgClxXl8OKJ6xZJ_w"
   - 주의사항 : 로그인시 발급받은 access token을 header Bearer에 넣어줘야함
 
 ### token 재발급
 - JWT Access Token 재발급
   - http method : GET
-  - URL : http://52.52.165.102:80/api/token/reissued
+  - ~~URL : http://52.52.165.102:80/api/token/reissued~~
   - request body
   ```
   {
@@ -127,7 +127,7 @@ Test code를 통해 테스트 할 수 있게 구현하였습니다.
 
 - 비밀번호 변경 인증 토큰 발급
   - http method : GET
-  - URL : http://52.52.165.102:80/api/password/token
+  - ~~URL : http://52.52.165.102:80/api/password/token~~
   - request body
   ```
    {
@@ -137,7 +137,7 @@ Test code를 통해 테스트 할 수 있게 구현하였습니다.
     
 - 비밀번호 변경
   - http method : PUT
-  - URL : http://52.52.165.102:80/api/password
+  - ~~URL : http://52.52.165.102:80/api/password~~
   - request body
   ```
     {
